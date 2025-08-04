@@ -1,0 +1,152 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.next/
+
+# Environment and config
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+
+# Tempo-specific (development only)
+**/tempobook/dynamic/
+**/tempobook/storyboards/
+tempo.config.json
+
+# Large asset directories
+src/assets/
+src/fonts/
+src/stories/
+src/types/
+
+# Home directory and core files
+home/
+core/
+
+# GitHub workflows
+.github/
+
+# Font files
+*.woff
+*.woff2
+*.otf
+*.ttf
+*.eot
+
+# Document files
+*.pdf
+*.doc
+*.docx
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Video files
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.wma
+*.m4a
+
+# Large image files
+*.psd
+*.ai
+*.sketch
+*.fig
+*.tiff
+*.tif
+*.bmp
+*.raw
+
+# Backup and temporary files
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.orig
+index.html.backup.*
+
+# Development files
+*.map
+*.min.js
+*.min.css
+
+# Config files not needed for deployment
+components.json
+README.md
+tsconfig.node.json
+postcss.config.js
+
+# Root level font files
+Radella Script.woff2
+Costa Rica Swash.otf
+product.png
+
+# Keep only essential public files
+public/*
+!public/vite.svg
+!public/CV_3D_dropshadow.png
+!public/linked_website_shadow.png
+!public/Darren_O_Donnell_CV_Jul_2025.pdf
